@@ -1,0 +1,52 @@
+<app-admin-home></app-admin-home>
+<div class="newp">
+    <div class="container-fluid">
+        <div class="category border m-2 p-4 rounded">
+            <h1 class="display-6">New Category</h1>
+            <hr>
+            <form class="col-lg-8"  >
+                <div class="form-group m-3">
+                    <label for="title">Category Title</label>
+                    <input id="title" class="form-control" type="text" name="title" required>
+                </div>
+    
+                <div class="m-3">
+                    <input type="submit" class="btn btn-outline-primary col-lg-3" value="Save Category">
+                </div>
+            </form>
+        </div>
+    
+        <div class="category border m-2 p-4 rounded">
+            <h1 class="display-6">New Product</h1>
+            <hr>
+            <form  class="col-lg-8" >
+                <div class="form-group m-3">
+                    <label for="title">Product Name</label>
+                    <input id="title" class="form-control" type="text" name="name" required>
+                </div>
+                <div class="form-group m-3">
+                    <label for="price">Price</label>
+                    <input id="price" class="form-control" type="number" name="price" required>
+                </div>
+    
+                <div class="form-group m-3">
+                    <label for="category">Category</label>
+                    <select name="category" class="form-control" id="category" required>
+                        <option >mobile</option>
+                        <option >laptops</option>
+                        <option >watches</option>
+                    </select>
+                </div>
+    
+                <div class="custom-file  m-3">
+                    <input id="file" class="custom-file-input" type="file" name="productImage">
+                    <label for="file" class="custom-file-label">Select Image</label>
+                </div>
+    
+                <div class="m-3">
+                    <input type="submit" class="btn btn-outline-primary col-lg-3" value="Save Product">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

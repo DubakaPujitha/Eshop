@@ -1,0 +1,19 @@
+img{
+    width:200px;
+    height:200px;
+}
+button{
+    background-color: green;
+    color: white;
+}
+span{
+    margin:7px;
+}
+input[type="text"]{
+    width:70px;
+    height: 35px;
+    margin-left: 15px;
+    margin-right: 10px;
+    text-align: center;
+    border:none;
+}

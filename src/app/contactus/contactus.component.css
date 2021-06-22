@@ -1,0 +1,109 @@
+.contact_section {
+    position: relative;
+}
+section {
+    display: block;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact_section .row {
+    -webkit-box-align: center;
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-6{
+    margin-top: 30px;
+    margin-bottom:30px;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+@media (max-width: 768px){
+.contact_section .form_container .img-box{
+        margin-bottom: 45px;
+}
+}
+.heading_container {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+.heading_container h2 {
+    position: relative;
+    font-weight: bold;
+}
+h2, .h2 {
+    font-size: 2rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+h2 {
+    margin-top: 0px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+form{
+    display:block ;
+}
+.contact_section input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    background-color: transparent;
+    outline: none;
+    color: #000000;
+    border: 1px solid #a5a5a5;
+}
+input,textarea{
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input[type="email"] {
+    padding: 1px 2px;
+}
+.contact_section input.message-box {
+    height: 120px;
+}
+.d-flex {
+    display: flex !important;
+}
+.contact_section button {
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    padding: 10px 65px;
+    background-color: #f0d43a;
+    border-radius: 3px;
+    transition: all 0.3s;
+    border: 1px solid #f0d43a;
+    color: #fff;
+    margin-top: 10px;
+}
+.contact_section .img-box img {
+    width: 100%;
+}

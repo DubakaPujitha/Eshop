@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+form{
+    margin-top: 50px;
+    width:700px;
+    height:200px;
+    padding-left:400px;
+}
+.btn-primary{
+    margin-left:50px;
+}
+.btn-danger{
+    margin-left:20px;
+}

@@ -1,0 +1,80 @@
+<app-header></app-header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 >REGISTER</h1>
+          <form role="form" class="form-horizontal">
+              <div class="row">
+                  <div class="col">
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend"><span class="input-group-text">first name</span></div>
+                       <input type="text" class="form-control" name="firstname" id="un" required>
+                      </div>
+                    </div>
+                  <div class="col">
+                     <div class="input-group mb-3">
+                       <div class="input-group-prepend"><span class="input-group-text">Last name</span></div>
+                      <input type="text" class="form-control" name="lastname" id="ln" required>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                   <div class="col">
+                       <div class="input-group mb-3">
+                          <div class="input-group-prepend"><span class="input-group-text">Email id</span></div>
+                          <input type="email" class="form-control" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="input-group mb-3">
+                         <div class="input-group-prepend"><span class="input-group-text">password</span></div>
+                         <input type="password" class="form-control" name="password" id="password" required>
+                     </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                      <div class="input-group mb-3">
+                         <div class="input-group-prepend"><span class="input-group-text">Mobile</span></div>
+                         <input type="text" class="form-control" name="mobile" id="mobile" required>
+                       </div>
+                    </div>
+                    <div class="col">
+                       <div class="input-group mb-3">
+                        <div class="input-group-prepend"><span class="input-group-text">Confirm password</span></div>
+                        <input type="password" class="form-control" name="password" id="password" required>
+                     </div>
+                   </div>
+                </div>
+            <div class="row">
+                 <div class="col">
+                    <label>Gender:</label>
+                     <div class="custom-control custom-radio custom-control-inline">
+                     <input type="radio" name="optradio" id="radio" class="custom-control-input">
+                     <label for="radio" class=custom-control-label>Female</label>
+                     </div>
+                     <div class="custom-control custom-radio custom-control-inline">
+                     <input type="radio" name="optradio2" id="radio2" class="custom-control-input">
+                     <label for="radio2" class=custom-control-label >male</label>
+                     </div>
+                 </div>
+                 <div class="col">
+                </div>
+            </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" name="switch" id="switch" class="custom-control-input">
+                <label for="switch" class="custom-control-label">Remember me</label>
+            </div><br>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+</body>
+</html>
+<app-footer></app-footer>
