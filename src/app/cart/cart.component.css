@@ -17,3 +17,13 @@ input[type="text"]{
     text-align: center;
     border:none;
 }
+@media(max-width:576px){
+    table{
+        width:500px;
+    }
+}
+@media(max-width:480px){
+    table{
+        width:450px;
+    }
+}

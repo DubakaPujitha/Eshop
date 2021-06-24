@@ -27,7 +27,21 @@ img{
 i{
     color:#5a88ca;
 }
-.col-4{
+.col-lg-4{
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 35px;
+justify-content: center;
+margin-bottom:25px;
+}
+ .col-md-6{
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 35px;
+justify-content: center;
+margin-bottom:25px;
+}
+.col-sm-12{
     margin-top: 10px;
     padding-top: 15px;
     padding-left: 35px;

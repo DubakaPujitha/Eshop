@@ -9,7 +9,26 @@ body {
 	padding-top: 70px;
 
 }
-
+@media(max-width:768px){
+    .content{
+        width:70%;
+        margin: 0 auto;
+        padding-top: 70px;
+    }
+    .table{
+        padding-left:10px;
+    }
+}
+@media(max-width:576px){
+    .content{
+        width:70%;
+        margin: 0 auto;
+        padding-top: 70px;
+    }
+    .table{
+        padding-left:10px;
+    }
+}
 .nav-tabs {
 	margin: 0 0 2em 0;
 	padding: 1em 1em 1.5em 1em;
