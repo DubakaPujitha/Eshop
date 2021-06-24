@@ -13,30 +13,30 @@
         <tr id="row1">
           <td> <img src="./assets/images/mobile1.jpg" alt=""></td>
           <td><ins>&#8377; 1,00,000</ins> </td>
-          <td><button type="button" class="btn" (click)="inc()"><i class="fa fa-plus"></i></button>
+          <td><button  (click)="inc()"><i class="fa fa-plus"></i></button>
             <input type="text" [value]="quantity">
-        <button type="button" class="btn" (click)="dec()"><i class="fa fa-minus"></i></button><br>
+        <button (click)="dec()"><i class="fa fa-minus"></i></button><br>
     </td>
           <td>{{quantity*100000}}</td>
-          <td><button (click)="del1()">Delete</button></td>
+          <td><button (click)="del1()"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
         </tr>
         <tr id="row2">
           <td> <img src="./assets/images/laptop1.png" alt=""></td>
           <td><ins>&#8377;42,000</ins></td>
-          <td><button type="button" class="btn" (click)="inc1()"><i class="fa fa-plus" ></i></button>
+          <td><button  (click)="inc1()"><i class="fa fa-plus" ></i></button>
             <input type="text" [value]="quantity1">
-            <button type="button" class="btn" (click)="dec1()"><i class="fa fa-minus"></i></button></td>
+            <button  (click)="dec1()"><i class="fa fa-minus"></i></button></td>
             <td>{{quantity1*42000}}</td>
-            <td><button (click)="del2()">Delete</button></td>
+            <td><button (click)="del2()"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
         </tr>
         <tr id="row3">
           <td><img src="./assets/images/slider-img.png" alt=""></td>
           <td> <ins>&#8377;5,000 </ins></td>
-          <td><button type="button" class="btn"(click)="inc2()" ><i class="fa fa-plus"></i></button>
+          <td><button (click)="inc2()" ><i class="fa fa-plus"></i></button>
             <input type="text" [value]="quantity2">
-            <button type="button" class="btn" (click)="dec2()"><i class="fa fa-minus"></i></button></td>
+            <button  (click)="dec2()"><i class="fa fa-minus"></i></button></td>
             <td>{{quantity2*5000}}</td>
-            <td><button (click)="del3()">Delete</button></td>
+            <td><button (click)="del3()"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
         </tr>
         <tr>
           <td></td>

@@ -21,9 +21,17 @@ input[type="text"]{
     table{
         width:500px;
     }
+    img{
+        width:50px;
+        height:100px;
+    }
 }
 @media(max-width:480px){
     table{
         width:450px;
+    }
+    img{
+        width:50px;
+        height:100px;
     }
 }
