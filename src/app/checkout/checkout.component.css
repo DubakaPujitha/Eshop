@@ -64,13 +64,9 @@ input[type="text"] {
       .ship{
         padding-left:10px;
     }
-    figure {
+    figure img{
         width:25px;
         height:25px;
-    }
-    img{
-        width:15px;
-        height:10px
     }
 }
 
@@ -146,10 +142,7 @@ input.pay-logo{
     background: url(../.././assets/images/visa.png) no-repeat 427px 5px;
 }
 
-.tab-form-left {
-    float: left;
-	margin: 0px;
-}
+
 .user-form ul li {
     list-style-type: none;
     display: inline-block;
@@ -180,10 +173,7 @@ input.text_box {
     background: #fcfcfc;
     border: 1px solid #ebeced;
 }
-.tab-form-right {
-    float: right;
-    width: 50%;
-}
+
 .tab-form-right input[type="text"] {
     width:95%;
     padding: 8px;
