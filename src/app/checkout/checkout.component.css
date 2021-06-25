@@ -202,11 +202,12 @@ input.text_box {
     background: #B3E03F;
     color: #FFFFFF;
     text-align: center;
-    padding: 10px 0;
+    padding: 0px 0;
     border: none;
     font-size: 16px;
     outline: none;
-    width: 22%;
+    width: 50%;
+    height: 50px;
     cursor: pointer;
     font-weight: 600;
 	margin-top: 15px;
