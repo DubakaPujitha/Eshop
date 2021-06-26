@@ -30,7 +30,7 @@
                 <td>&#8377;1,15,000</td>
                 <td>
                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                           <button class="btn btn-warning"  value="pending">Pending</button>
+                           <button [style.background-color]="toggle?'darkorange':'mediumseagreen'" (click)="change()">{{status}}</button>
                     </div>
                 </td>
             </tr>
@@ -47,7 +47,7 @@
                 <td>&#8377;10,000</td>
                 <td>
                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                           <button class="btn btn-warning"  value="pending">Pending</button>
+                        <button [style.background-color]="toggle1?'darkorange':'mediumseagreen'" (click)="change1()">{{status1}}</button>
                     </div>
                 </td>
             </tr>
@@ -64,7 +64,7 @@
                 <td>&#8377;54,999</td>
                 <td>
                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                           <button class="btn btn-warning"  value="pending">Pending</button>
+                        <button [style.background-color]="toggle2?'darkorange':'mediumseagreen'" (click)="change2()">{{status2}}</button>
                     </div>
                 </td>
             </tr>
@@ -81,7 +81,7 @@
                 <td>&#8377;17,999</td>
                 <td>
                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                           <button class="btn btn-warning"  value="pending">Pending</button>
+                        <button [style.background-color]="toggle3?'darkorange':'mediumseagreen'" (click)="change3()">{{status3}}</button>
                     </div>
                 </td>
             </tr>
@@ -98,7 +98,7 @@
                 <td>&#8377;23,999</td>
                 <td>
                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                           <button class="btn btn-warning"  value="pending">Pending</button>
+                        <button [style.background-color]="toggle4?'darkorange':'mediumseagreen'" (click)="change4()">{{status4}}</button>
                     </div>
                 </td>
             </tr>
@@ -115,7 +115,7 @@
                 <td>&#8377;44,000</td>
                 <td>
                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                           <button class="btn btn-warning"  value="pending">Pending</button>
+                        <button [style.background-color]="toggle5?'darkorange':'mediumseagreen'" (click)="change5()">{{status5}}</button>
                     </div>
                 </td>
             </tr>
